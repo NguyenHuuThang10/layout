@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Common */
+
+.mt40{
+    margin-top: 40px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pl5{
+    padding-left: 5px;
+}
+
+/* Main */
+
+#main{
+    width: 1000px;
+}
+
+.layout-1{
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #f7caab;
+    font-size: 18px;
+}
+
+.layout-1 header{
+    height: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-1 section{
+    height: 238px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-1 footer{
+    height: 30px;
+}
+
+.layout-2{
+    font-size: 18px;
+    height: 300px;
+    background-color: #e2f0d9;
+    border: 1px solid #000;
+}
+
+.layout-2 header{
+    height: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-2 .content{
+    height: 238px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-2 .nav{
+    width: 250px;
+    height: 237px;
+    float: left;
+    border-right: 1px solid #000;
+}
+
+.layout-2 .section-1{
+    width: 448px;
+    height: 237px;
+    float: left;
+    border-right: 1px solid #000;   
+}
+
+.layout-2 .section-2{
+    width: 300px;
+    height: 237px;
+    float: left;
+}
+
+.layout-2 footer{
+    height: 30px;
+}
+
+.layout-3{
+    font-size: 18px;
+    height: 300px;
+    background-color: #ffe59a;
+    border: 1px solid #000;
+}
+
+.layout-3 header, menu{
+    height: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-3 .content{
+    height: 208px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-3 .nav{
+    width: 250px;
+    height: 207px;
+    float: left;
+    border-right: 1px solid #000;
+}
+
+.layout-3 .section-1{
+    width: 448px;
+    height: 207px;
+    float: left;
+    border-right: 1px solid #000;   
+}
+
+.layout-3 .section-2{
+    width: 300px;
+    height: 207px;
+    float: left;
+}
+
+.layout-3 footer{
+    height: 30px;
+}
+
+.layout-4{
+    font-size: 18px;
+    height: 300px;
+    background-color: #8eaada;
+    border: 1px solid #000;
+}
+
+.layout-4 header{
+    height: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-4 .content{
+    height: 238px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-4 .nav{
+    width: 300px;
+    height: 237px;
+    float: left;
+    border-right: 1px solid #000;
+}
+
+.layout-4 .nav li{
+    list-style: none;
+    position: relative;
+}
+
+.layout-4 .nav li a{
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    background: #000;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid red;
+}
+.layout-4 .nav .sub-nav ul li:hover a,
+.layout-4 .nav > ul > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+
+.layout-4 li:hover .sub-nav{
+    display: block;
+}
+
+.layout-4 .nav .sub-nav{
+    display: none;
+    position: absolute;
+    top: 9%;
+    right: -11px;
+}
+
+.layout-4 .section{
+    width: 698px;
+    height: 237px;
+    float: left;
+}
+
+.layout-4 .article{
+    width: 690px;
+    height: 198px;
+    border: 1px solid #000;
+    background-color: #fbe3d6;
+}
+
+.layout-4 footer{
+    height: 30px;
+}
+
+.layout-5{
+    font-size: 18px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #a7d08c;
+}
+.layout-5 header{
+    height: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-5 nav{
+    height: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-5 .section{
+    height: 218px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-5 .article{
+    width: 988px;
+    height: 180px;
+    border: 1px solid #000;
+    background-color: #fbe3d6;
+}
+
+.layout-5 footer{
+    height: 30px;
+}
+
+.layout-6{
+    font-size: 18px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #ffe59a;
+}
+
+.layout-6 header{
+    height: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-6 nav{
+    height: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-6 .content{
+    height: 218px;
+    border-bottom: 1px solid #000;
+}
+
+.layout-6 .section{
+    width: 698px;
+    height: 217px;
+    border-right: 1px solid #000;
+    float: left;
+}
+
+.layout-6 .article {
+    width: 673px;
+    border: 1px solid #000;
+    height: 90px;
+    background: #fbe3d6;
+}
+
+.layout-6 .article-1{
+    border-bottom: none;
+}
+
+.layout-6 .aside{
+    width: 300px;
+    height: 217px;
+    float: left;
+}
+
+.layout-6 footer{
+    height: 30px;
+}
